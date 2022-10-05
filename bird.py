@@ -1,0 +1,25 @@
+d = int(input('Enter number of D:'))
+A100=d//100
+d=d-(A100*100)
+print('$100 = ',A100)
+A50=d//50
+d=d-(A50*50)
+print('$50 = ',A50)
+A20=d//20
+d=d-(A20*20)
+print('$20 = ', A20)
+A10=d//10
+d=d-(A10*10)
+print('$10 = ',A10)
+A5=d//5
+d=d-(A5*5)
+print('$5 = ',A5)
+A2=d//2
+d=d-(A2*2)
+print('$2 = ',A2)
+A1=d//1
+d=d-(A1*1)
+print('$1 = ',A1)
+
+sum = A100+A50+A20+A10+A5+A2+A1
+print('SUM = ',sum)
